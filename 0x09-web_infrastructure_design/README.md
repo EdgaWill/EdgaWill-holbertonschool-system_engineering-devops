@@ -25,7 +25,7 @@ Website Infrastructure means the servers, networks, and other underlying infrast
 
 * **0. Simple web stack**
   Design a one server web infrastructure that hosts the website that is reachable via www.foobar.com
- REQUIREMENTS:
+ **REQUIREMENTS:
   * 1 server
   * 1 web server (Nginx)
   * 1 application server
@@ -33,7 +33,7 @@ Website Infrastructure means the servers, networks, and other underlying infrast
   * 1 database (MySQL)
   * 1 domain name foobar.com configured with a www record that points to your server IP 8.8.8.8
 * **1. Distributed web infrastructure**
-   REQUIREMENTS:
+  **REQUIREMENTS:
   * 2 server
   * 1 web server (Nginx)
   * 1 application server
@@ -41,8 +41,8 @@ Website Infrastructure means the servers, networks, and other underlying infrast
   * 1 application files (your code base)
   * 1 database (MySQL)
 
-* **2. Secured and monitored web infrastructure *
-  REQUIREMENTS:
+* **2. Secured and monitored web infrastructure **
+ ** REQUIREMENTS:
   * 3 firewalls
   * 1 SSL certificate to serve www.foobar.com over HTTPS
   * 3 monitoring clients (data collector for Sumologic or other monitoring services)
